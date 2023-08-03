@@ -40,7 +40,6 @@ export class UpdateEmployeeComponent implements OnInit {
       .subscribe(data => {
         console.log(data);
         this.employee = new Employee();
-        this.goToEmployeeList();
       }, error => console.log(error)
       )
 
@@ -48,6 +47,7 @@ export class UpdateEmployeeComponent implements OnInit {
 
   onSubmit(){
     this.updateEmployee();
+    this.goToEmployeeList();
   }
 
 
