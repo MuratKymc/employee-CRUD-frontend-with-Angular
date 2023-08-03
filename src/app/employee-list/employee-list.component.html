@@ -17,14 +17,19 @@
             <td>
 
                 <div>
-                    <button type="button" (click)="updateEmployee(employee.id)" class="btn btn-info btn-sm">
+                    <button type="button" (click)="employeeDetails(employee.id)" class="btn btn-secondary btn-sm">
+                        Details</button>
+
+                    <button type="button" (click)="updateEmployee(employee.id)" class="btn btn-info btn-sm ms-2">
                         Update</button>
-                    <button type="button" (click)="deleteEmployee(employee.id)" class="btn btn-danger btn-sm ms-1">
+
+                    <button type="button" (click)="deleteEmployee(employee.id)" class="btn btn-danger btn-sm ms-2">
                         Delete</button>
+
+
                 </div>
             </td>
         </tr>
     </tbody>
 
 </table>
-
