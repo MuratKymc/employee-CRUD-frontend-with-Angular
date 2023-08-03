@@ -1,3 +1,23 @@
+
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a routerLink="employees" routerLinkActive="active" class="nav-link">Employee List</a>
+        </li>
+
+    </ul>
+</nav>
+
+
 <h1 class="text-center"> {{ title }}</h1>
 
-<button class="btn btn-primary ml-2">asd</button>
+<div class="container">
+
+    <router-outlet></router-outlet>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <span>Murat Kuyumcu</span>
+    </div>
+</footer>
