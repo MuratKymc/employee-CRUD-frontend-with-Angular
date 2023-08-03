@@ -4,20 +4,18 @@
         <li class="nav-item">
             <a routerLink="employees" routerLinkActive="active" class="nav-link">Employee List</a>
         </li>
+        <li class="nav-item">
+            <a routerLink="create-employee" routerLinkActive="active" class="nav-link">Add Employee</a>
+        </li>
 
     </ul>
 </nav>
 
 
-<h1 class="text-center"> {{ title }}</h1>
+<h1 class="text-center mt-4 mb-4"> {{ title }}</h1>
 
 <div class="container">
 
     <router-outlet></router-outlet>
 </div>
 
-<footer class="footer">
-    <div class="container">
-        <span>Murat Kuyumcu</span>
-    </div>
-</footer>
