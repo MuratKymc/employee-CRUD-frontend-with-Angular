@@ -10,14 +10,21 @@
     </thead>
 
     <tbody>
-        <tr *ngFor= "let employee of employees">
+        <tr *ngFor="let employee of employees">
             <td> {{ employee.firstName }}</td>
             <td> {{ employee.lastName }}</td>
             <td> {{ employee.email }}</td>
             <td>
-                <button (click)="updateEmployee(employee.id)" class="btn btn-info"> Update</button>
+
+                <div>
+                    <button type="button" (click)="updateEmployee(employee.id)" class="btn btn-info btn-sm">
+                        Update</button>
+                    <button type="button" (click)="deleteEmployee(employee.id)" class="btn btn-danger btn-sm ms-1">
+                        Delete</button>
+                </div>
             </td>
         </tr>
     </tbody>
 
 </table>
+
