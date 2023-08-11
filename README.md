@@ -33,4 +33,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## An Example of App
 
+https://github.com/MuratKymc/employee-CRUD-frontend-with-Angular/assets/99142274/910385ae-1b83-4868-91f2-d1f7f001dde6
+
+
+
 
